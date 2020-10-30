@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HERO</title>
+  
+  <subtitle>印迹</subtitle>
+  <link href="http://kuaiyu95.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://kuaiyu95.github.io/"/>
+  <updated>2020-10-30T15:11:49.881Z</updated>
+  <id>http://kuaiyu95.github.io/</id>
+  
+  <author>
+    <name>Yu Kuai</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://kuaiyu95.github.io/posts/0.html"/>
+    <id>http://kuaiyu95.github.io/posts/0.html</id>
+    <published>2020-10-30T15:11:49.881Z</published>
+    <updated>2020-10-30T15:11:49.881Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;国庆千岛湖旅游计划安排&quot;&gt;&lt;a href=&quot;#国庆千岛湖旅游计划安排&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网络安全</title>
+    <link href="http://kuaiyu95.github.io/posts/45331.html"/>
+    <id>http://kuaiyu95.github.io/posts/45331.html</id>
+    <published>2018-09-07T01:25:00.000Z</published>
+    <updated>2020-10-30T15:11:49.881Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;1-XSS-攻击&quot;&gt;&lt;a href=&quot;#1-XSS-攻击&quot; class=&quot;headerlink&quot; title=&quot;1.  XSS 攻击&quot;&gt;&lt;/a&gt;1.  XSS 攻击&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt; XSS</summary>
+        
+      
+    
+    
+    
+    <category term="网络安全" scheme="http://kuaiyu95.github.io/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="网络安全" scheme="http://kuaiyu95.github.io/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="XSS 攻击" scheme="http://kuaiyu95.github.io/tags/XSS-%E6%94%BB%E5%87%BB/"/>
+    
+    <category term="CORS 攻击" scheme="http://kuaiyu95.github.io/tags/CORS-%E6%94%BB%E5%87%BB/"/>
+    
+  </entry>
+  
+</feed>
