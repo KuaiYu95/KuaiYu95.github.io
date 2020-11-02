@@ -6,7 +6,7 @@
   <link href="http://kuaiyu95.github.io/atom.xml" rel="self"/>
   
   <link href="http://kuaiyu95.github.io/"/>
-  <updated>2020-11-02T06:20:28.235Z</updated>
+  <updated>2020-11-02T06:58:08.100Z</updated>
   <id>http://kuaiyu95.github.io/</id>
   
   <author>
@@ -15,6 +15,88 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>macOS 安装 mongoDB 报错问题</title>
+    <link href="http://kuaiyu95.github.io/posts/855a.html"/>
+    <id>http://kuaiyu95.github.io/posts/855a.html</id>
+    <published>2020-11-02T06:55:04.000Z</published>
+    <updated>2020-11-02T06:58:08.100Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;brew tap mongodb/brew&lt;/p&gt;
+&lt;p&gt;brew install &lt;a href=&quot;mailto:mongodb-community@4.2&quot;&gt;mongodb-community@4.2&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;文件路径&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="数据库" scheme="http://kuaiyu95.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="mongoDB" scheme="http://kuaiyu95.github.io/tags/mongoDB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx 安装及对 antd Pro 项目进行 nginx 配置和 gzip 压缩</title>
+    <link href="http://kuaiyu95.github.io/posts/1512.html"/>
+    <id>http://kuaiyu95.github.io/posts/1512.html</id>
+    <published>2020-11-02T06:50:06.000Z</published>
+    <updated>2020-11-02T06:53:53.385Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;hr&gt;
+&lt;h3 id=&quot;更新update&quot;&gt;&lt;a href=&quot;#更新update&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Nginx" scheme="http://kuaiyu95.github.io/categories/Nginx/"/>
+    
+    
+    <category term="nginx" scheme="http://kuaiyu95.github.io/tags/nginx/"/>
+    
+    <category term="linux" scheme="http://kuaiyu95.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ubuntu18.04 安装 MongoDB 4.0</title>
+    <link href="http://kuaiyu95.github.io/posts/fdd6.html"/>
+    <id>http://kuaiyu95.github.io/posts/fdd6.html</id>
+    <published>2020-11-02T06:37:41.000Z</published>
+    <updated>2020-11-02T06:47:17.228Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;ubuntu18-04-安装-MongoDB-4-0&quot;&gt;&lt;a href=&quot;#ubuntu18-04-安装-MongoDB-4-0&quot; class=&quot;headerlink&quot; title=&quot;ubuntu18.04 安装 MongoDB</summary>
+        
+      
+    
+    
+    
+    <category term="数据库" scheme="http://kuaiyu95.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+    <category term="mongoDB" scheme="http://kuaiyu95.github.io/tags/mongoDB/"/>
+    
+    <category term="ubuntu" scheme="http://kuaiyu95.github.io/tags/ubuntu/"/>
+    
+  </entry>
   
   <entry>
     <title>常用 git 指令集合</title>

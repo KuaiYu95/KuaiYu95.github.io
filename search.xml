@@ -4,6 +4,85 @@
   
     
     <entry>
+      <title>macOS 安装 mongoDB 报错问题</title>
+      <link href="posts/855a.html"/>
+      <url>posts/855a.html</url>
+      
+        <content type="html"><![CDATA[<p>brew tap mongodb/brew</p><p>brew install <a href="mailto:mongodb-community@4.2">mongodb-community@4.2</a></p><h2 id="文件路径"><a href="#文件路径" class="headerlink" title="文件路径"></a>文件路径</h2><p>配置文件：/usr/local/etc/mongod.conf</p><p>日志目录路径：/usr/local/var/log/mongodb</p><p>数据目录路径：/usr/local/var/mongodb</p><h2 id="启动-amp-停止"><a href="#启动-amp-停止" class="headerlink" title="启动&amp;停止"></a>启动&amp;停止</h2><p>brew services start mongodb-community</p><p>brew services stop mongodb-community</p><h2 id="手动启动-mongod"><a href="#手动启动-mongod" class="headerlink" title="手动启动 mongod"></a>手动启动 mongod</h2><h3 id="如果不需要或不需要后台MongoDB服务，可以运行："><a href="#如果不需要或不需要后台MongoDB服务，可以运行：" class="headerlink" title="如果不需要或不需要后台MongoDB服务，可以运行："></a>如果不需要或不需要后台MongoDB服务，可以运行：</h3><p>mongod –config /usr/local/etc/mongod.conf</p><p>【注】如果不包括–config选项具有配置文件的路径，则MongoDB服务器没有默认配置文件或日志目录路径，并且将使用 /data/db.</p><h3 id="关机-mongod-手动启动，请使用-admin-数据库和运行-db-shutdownServer"><a href="#关机-mongod-手动启动，请使用-admin-数据库和运行-db-shutdownServer" class="headerlink" title="关机 mongod 手动启动，请使用 admin 数据库和运行 db.shutdownServer():"></a>关机 mongod 手动启动，请使用 admin 数据库和运行 db.shutdownServer():</h3><p>mongo admin –eval “db.shutdownServer()”</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mongoDB </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Nginx 安装及对 antd Pro 项目进行 nginx 配置和 gzip 压缩</title>
+      <link href="posts/1512.html"/>
+      <url>posts/1512.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><hr><h3 id="更新update"><a href="#更新update" class="headerlink" title="更新update"></a>更新update</h3><pre><code>apt-get update</code></pre><h3 id="安装-nginx"><a href="#安装-nginx" class="headerlink" title="安装 nginx"></a>安装 nginx</h3><pre><code>sudo apt-get install nginx</code></pre><h3 id="查看是否安装成功"><a href="#查看是否安装成功" class="headerlink" title="查看是否安装成功"></a>查看是否安装成功</h3><pre><code>nginx -v</code></pre><h2 id="运行-nginx"><a href="#运行-nginx" class="headerlink" title="运行 nginx"></a>运行 nginx</h2><hr><h3 id="启动-nginx"><a href="#启动-nginx" class="headerlink" title="启动 nginx"></a>启动 nginx</h3><pre><code>service nginx start</code></pre><h3 id="查看-nginx-是否启动"><a href="#查看-nginx-是否启动" class="headerlink" title="查看 nginx 是否启动"></a>查看 nginx 是否启动</h3><pre><code>ps -ef | grep nginx</code></pre><h3 id="停止-nginx"><a href="#停止-nginx" class="headerlink" title="停止 nginx"></a>停止 nginx</h3><pre><code>service nginx stop</code></pre><h3 id="重启-nginx"><a href="#重启-nginx" class="headerlink" title="重启 nginx"></a>重启 nginx</h3><pre><code>service nginx restart</code></pre><h2 id="配置-nginx-服务"><a href="#配置-nginx-服务" class="headerlink" title="配置 nginx 服务"></a>配置 nginx 服务</h2><hr><h3 id="修改配置文件-nginx-conf"><a href="#修改配置文件-nginx-conf" class="headerlink" title="修改配置文件 nginx.conf"></a>修改配置文件 nginx.conf</h3><pre><code>vim /etc/nginx/nginx.conf</code></pre><hr><h3 id="antd-Pro-配置信息"><a href="#antd-Pro-配置信息" class="headerlink" title="antd Pro 配置信息"></a>antd Pro 配置信息</h3><pre><code>    server {        listen 80;        # gzip config        gzip on;        gzip_min_length 1k;        gzip_comp_level 9;        gzip_types text/plain application/javascript application/x-javascript text/css application/xml text/javascript application/x-httpd-php image/jpeg image/gif image/png;        gzip_vary on;        gzip_disable "MSIE [1-6]\.";        root ~/weData/build/index.html;        location / {            # 用于配合 browserHistory使用            try_files $uri $uri/ /index.html;            # 如果有资源，建议使用 https + http2，配合按需加载可以获得更好的体验            # rewrite ^/(.*)$ https://preview.pro.ant.design/$1 permanent;        }        location /api {            proxy_pass https://localhost:8080/;            proxy_set_header   X-Forwarded-Proto $scheme;            proxy_set_header   X-Real-IP         $remote_addr;        }    }</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nginx </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nginx </tag>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ubuntu18.04 安装 MongoDB 4.0</title>
+      <link href="posts/fdd6.html"/>
+      <url>posts/fdd6.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="ubuntu18-04-安装-MongoDB-4-0"><a href="#ubuntu18-04-安装-MongoDB-4-0" class="headerlink" title="ubuntu18.04 安装 MongoDB 4.0"></a>ubuntu18.04 安装 MongoDB 4.0</h2><hr><blockquote><p>在终端输入GPK码</p></blockquote><pre><code>$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4</code></pre><blockquote><p>添加 MongoDB 源</p></blockquote><h5 id="Ubuntu-18-04-LTS"><a href="#Ubuntu-18-04-LTS" class="headerlink" title="Ubuntu 18.04 LTS:"></a>Ubuntu 18.04 LTS:</h5><pre><code>$ echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb.list</code></pre><h5 id="Ubuntu-16-04-LTS"><a href="#Ubuntu-16-04-LTS" class="headerlink" title="Ubuntu 16.04 LTS:"></a>Ubuntu 16.04 LTS:</h5><pre><code>$ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb.list</code></pre><blockquote><p>安装 MongoDB Server</p></blockquote><pre><code>$ sudo apt update$ sudo apt install mongodb-org</code></pre><blockquote><p>对 MongoDB Server 的管理</p></blockquote><pre><code>sudo systemctl enable mongod 允许开机启动sudo systemctl start mongod立即启动mongod</code></pre><blockquote><p>验证mongoDB4.0</p></blockquote><pre><code>mongod --version</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mongoDB </tag>
+            
+            <tag> ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>常用 git 指令集合</title>
       <link href="posts/6cbf.html"/>
       <url>posts/6cbf.html</url>
