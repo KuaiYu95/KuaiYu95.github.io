@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>千岛湖旅游</title>
+      <link href="posts/f5f0.html"/>
+      <url>posts/f5f0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="国庆千岛湖旅游计划安排"><a href="#国庆千岛湖旅游计划安排" class="headerlink" title="国庆千岛湖旅游计划安排"></a>国庆千岛湖旅游计划安排</h1><p>2020年8月20号晚上，帅气逼人的我正在准备一次超级豪华的旅游计划，下面开始规划咯：</p><h2 id="一、旅游前准备工作"><a href="#一、旅游前准备工作" class="headerlink" title="一、旅游前准备工作"></a>一、旅游前准备工作</h2><p>十一国庆的天气还是烈日当空照啊，不得不多准备一些，以备不时之需啊<code>（臭狗子补充）</code></p><ul><li>防晒用品：遮阳帽（遮阳伞）、防晒霜、湿巾</li><li>洗漱用品：洗发膏、自备牙刷、洗脸巾、洗面奶、电动剃须刀</li><li>防蚊用品：驱蚊花露水</li><li>上衣备用：短袖三件、防晒衣一件</li><li>下衣备用：中裤三件、短裤三条</li><li>鞋子：运动鞋、凉鞋、袜子三到四双</li><li>水上项目：透明雨衣、泳衣、泳帽、凉鞋</li></ul><h2 id="二、旅游路线、交通及费用规划"><a href="#二、旅游路线、交通及费用规划" class="headerlink" title="二、旅游路线、交通及费用规划"></a>二、旅游路线、交通及费用规划</h2><p>为了避开国庆最拥堵的几天，可计划10月4号上午出发前往千岛湖景区</p><ul><li>西溪花园芦雪苑 - 杭州东站地铁站：60min + 30min(预留时间)</li><li>杭州东站 - 千岛湖站：60min左右（9月5号开始抢票啦！！！）「可选时段：’09:36-10:30’，’09:41-10:47’, ‘10:09 - 11:04’」</li><li>千岛湖站 - 宾馆：（某猪上提前预定，一定要打电话确认）「千岛湖绿城蓝湾度假酒店」</li></ul><h2 id="三、美食夜店嗨起来"><a href="#三、美食夜店嗨起来" class="headerlink" title="三、美食夜店嗨起来"></a>三、美食夜店嗨起来</h2><p>农夫三泉有点甜的产地，千岛湖可谓是美食胜地，一下收集了许多网友的热心推荐美食</p><ul><li>好东家民间菜（千岛湖大鱼头）</li></ul><h2 id="四、游玩规划"><a href="#四、游玩规划" class="headerlink" title="四、游玩规划"></a>四、游玩规划</h2><p>千岛湖的游湖路线为ABC三条，最著名的是A线的梅峰观岛和C线的黄山尖</p><p>游船来到了第二站—渔乐岛。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 旅游 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 旅游 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网络安全</title>
+      <link href="posts/45331.html"/>
+      <url>posts/45331.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="1-XSS-攻击"><a href="#1-XSS-攻击" class="headerlink" title="1.  XSS 攻击"></a>1.  XSS 攻击</h4><blockquote><p> XSS 跨站请求攻击</p></blockquote><pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">1</span></code></pre><ul><li>在 HTML 中内嵌的文本中，恶意内容以 script 标签形成注入</li><li>在内联的  JavaScript 中，拼接的数据突破了原本的限制（字符串，变量，方法名等）</li><li>在标签属性中，恶意内容包含引号，从而突破属性值的限制，注入其他属性或者标签</li><li>在标签的 href、src 等属性中，包含 javascript: 等可执行代码</li><li>在 onload、onerror、onclick 等事件中，注入不受控制代码</li><li>在 style 属性和标签中，包含类似 background-image:url(“javascript:…”); 的代码（新版本浏览器已经可以防范）</li><li>在 style 属性和标签中，包含类似 expression(…) 的 CSS 表达式代码（新版本浏览器已经可以防范）</li><li>一个博客网站，我发表一篇博客，其中嵌入<code>&lt;script&gt;</code>脚本，脚本内容：获取cookie，发送到我的服务器（服务器配合跨域）阅读了的人的cookie就会被盗取</li></ul><blockquote><p> XSS 预防</p></blockquote><ul><li>替换特殊字符，如 <code>&lt; </code>变为 <code>&amp;lt;</code> ，<code>&gt; </code> 变为 <code>&amp;gt;</code></li><li>那么 <code>&lt;script&gt;</code> 就会变为<code>$lt;script&amp;gt;</code> ，直接显示，而不会作为脚本执行</li><li>前端要替换，后端也要做替换，双保险</li><li>主流的前端框架已做好预防</li></ul><h4 id="2-XSRF攻击"><a href="#2-XSRF攻击" class="headerlink" title="2. XSRF攻击"></a>2. XSRF攻击</h4><blockquote><p>XSRF跨站请求伪装</p></blockquote><blockquote><p>XSRF攻击场景</p></blockquote><ul><li>你正在购物，看中了某个商品，商品id是100。付费接口是<code>xxx.com/pay?id=100</code>，但没有任何验证（现在的付费都会有验证，这里作为讲解，所以假设没有验证）。我是攻击者，我看中了一个商品，id是200。我想你发送了一封电子邮件，邮件标题很吸引人。但其实邮件正文隐藏着<code>&lt;img src='xxx.com/pay?id=200'&gt;</code>（并附带有别的执行付费脚本）你点击查看了这封邮件，就帮我购买了id是200的商品。</li></ul><blockquote><p>XSRF预防</p></blockquote><ul><li>使用post接口</li><li>增加验证，例如密码、短信验证码、指纹等</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络安全 </tag>
+            
+            <tag> XSS 攻击 </tag>
+            
+            <tag> CORS 攻击 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
