@@ -6,7 +6,7 @@
   <link href="http://kuaiyu95.github.io/atom.xml" rel="self"/>
   
   <link href="http://kuaiyu95.github.io/"/>
-  <updated>2020-11-02T02:23:38.430Z</updated>
+  <updated>2020-11-02T06:20:00.655Z</updated>
   <id>http://kuaiyu95.github.io/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常用 git 指令集合</title>
+    <link href="http://kuaiyu95.github.io/posts/6cbf.html"/>
+    <id>http://kuaiyu95.github.io/posts/6cbf.html</id>
+    <published>2020-11-02T06:18:33.000Z</published>
+    <updated>2020-11-02T06:20:00.655Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;查看本地分支&quot;&gt;&lt;a href=&quot;#查看本地分支&quot; class=&quot;headerlink&quot; title=&quot;查看本地分支&quot;&gt;&lt;/a&gt;查看本地分支&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;git branch     &lt;/code&gt;&lt;/pre&gt;
+&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="git" scheme="http://kuaiyu95.github.io/categories/git/"/>
+    
+    
+    <category term="git" scheme="http://kuaiyu95.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux 常用指令</title>
+    <link href="http://kuaiyu95.github.io/posts/6f9b.html"/>
+    <id>http://kuaiyu95.github.io/posts/6f9b.html</id>
+    <published>2020-11-02T06:15:56.000Z</published>
+    <updated>2020-11-02T06:17:59.902Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;查看端口是否被占用  &lt;code&gt;netstat -ap | grep 80&lt;/code&gt;  或者  &lt;code&gt;lsof -i:8090  &lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;杀掉正在运行的端口 &lt;code&gt;kill -9</summary>
+        
+      
+    
+    
+    
+    <category term="linux" scheme="http://kuaiyu95.github.io/categories/linux/"/>
+    
+    
+    <category term="linux" scheme="http://kuaiyu95.github.io/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>千岛湖旅游</title>
