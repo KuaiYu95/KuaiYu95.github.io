@@ -6,7 +6,7 @@
   <link href="http://kuaiyu95.github.io/atom.xml" rel="self"/>
   
   <link href="http://kuaiyu95.github.io/"/>
-  <updated>2020-11-02T07:05:14.993Z</updated>
+  <updated>2020-11-02T07:41:59.496Z</updated>
   <id>http://kuaiyu95.github.io/</id>
   
   <author>
@@ -17,11 +17,91 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>浏览器垃圾回收</title>
+    <link href="http://kuaiyu95.github.io/posts/bf01.html"/>
+    <id>http://kuaiyu95.github.io/posts/bf01.html</id>
+    <published>2020-11-02T07:38:38.000Z</published>
+    <updated>2020-11-02T07:41:59.496Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;什么是垃圾数据&quot;&gt;&lt;a href=&quot;#什么是垃圾数据&quot; class=&quot;headerlink&quot; title=&quot;什么是垃圾数据&quot;&gt;&lt;/a&gt;什么是垃圾数据&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;我们在写 js</summary>
+        
+      
+    
+    
+    
+    <category term="浏览器" scheme="http://kuaiyu95.github.io/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+    
+    <category term="垃圾回收" scheme="http://kuaiyu95.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开发过程中遇到的一些问题及解决方案 --- 浏览器</title>
+    <link href="http://kuaiyu95.github.io/posts/6c2b.html"/>
+    <id>http://kuaiyu95.github.io/posts/6c2b.html</id>
+    <published>2020-11-02T07:34:07.000Z</published>
+    <updated>2020-11-02T07:36:39.189Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-浏览器返回上一级，页面数据不刷新问题&quot;&gt;&lt;a href=&quot;#1-浏览器返回上一级，页面数据不刷新问题&quot; class=&quot;headerlink&quot; title=&quot;1. 浏览器返回上一级，页面数据不刷新问题&quot;&gt;&lt;/a&gt;1.</summary>
+        
+      
+    
+    
+    
+    <category term="浏览器" scheme="http://kuaiyu95.github.io/categories/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+    
+    <category term="浏览器" scheme="http://kuaiyu95.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    
+    <category term="缓存" scheme="http://kuaiyu95.github.io/tags/%E7%BC%93%E5%AD%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>动手实现 Promise/A+ 完成官方测试用例</title>
+    <link href="http://kuaiyu95.github.io/posts/aef3.html"/>
+    <id>http://kuaiyu95.github.io/posts/aef3.html</id>
+    <published>2020-11-02T07:28:26.000Z</published>
+    <updated>2020-11-02T07:32:50.534Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;动手实现-Promise-A-完成官方测试用例&quot;&gt;&lt;a href=&quot;#动手实现-Promise-A-完成官方测试用例&quot; class=&quot;headerlink&quot; title=&quot;动手实现 Promise/A+ 完成官方测试用例&quot;&gt;&lt;/a&gt;动手实现 Promise/A+</summary>
+        
+      
+    
+    
+    
+    <category term="promise" scheme="http://kuaiyu95.github.io/categories/promise/"/>
+    
+    
+    <category term="promise" scheme="http://kuaiyu95.github.io/tags/promise/"/>
+    
+    <category term="then" scheme="http://kuaiyu95.github.io/tags/then/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于 App 内嵌 H5 的友盟自定义事件使用方法</title>
     <link href="http://kuaiyu95.github.io/posts/38b9.html"/>
     <id>http://kuaiyu95.github.io/posts/38b9.html</id>
     <published>2020-11-02T07:00:18.000Z</published>
-    <updated>2020-11-02T07:05:14.993Z</updated>
+    <updated>2020-11-02T07:38:06.226Z</updated>
     
     
       
@@ -94,9 +174,9 @@
     <category term="Nginx" scheme="http://kuaiyu95.github.io/categories/Nginx/"/>
     
     
-    <category term="linux" scheme="http://kuaiyu95.github.io/tags/linux/"/>
-    
     <category term="nginx" scheme="http://kuaiyu95.github.io/tags/nginx/"/>
+    
+    <category term="linux" scheme="http://kuaiyu95.github.io/tags/linux/"/>
     
   </entry>
   
@@ -229,7 +309,7 @@
     <link href="http://kuaiyu95.github.io/posts/45331.html"/>
     <id>http://kuaiyu95.github.io/posts/45331.html</id>
     <published>2020-03-07T01:25:00.000Z</published>
-    <updated>2020-11-02T07:23:11.257Z</updated>
+    <updated>2020-11-02T07:37:41.517Z</updated>
     
     
       
