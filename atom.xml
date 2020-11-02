@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>HERO</title>
+  <title>印迹</title>
   
-  <subtitle>印迹</subtitle>
+  <subtitle>Naver Give Up</subtitle>
   <link href="http://kuaiyu95.github.io/atom.xml" rel="self"/>
   
   <link href="http://kuaiyu95.github.io/"/>
-  <updated>2020-10-30T07:52:05.650Z</updated>
+  <updated>2020-11-02T02:23:38.430Z</updated>
   <id>http://kuaiyu95.github.io/</id>
   
   <author>
@@ -20,17 +20,9 @@
     <title>千岛湖旅游</title>
     <link href="http://kuaiyu95.github.io/posts/f5f0.html"/>
     <id>http://kuaiyu95.github.io/posts/f5f0.html</id>
-    <published>2020-10-30T07:42:24.352Z</published>
-    <updated>2020-10-30T07:52:05.650Z</updated>
+    <published>2020-11-02T02:05:10.000Z</published>
+    <updated>2020-11-02T02:23:38.430Z</updated>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;国庆千岛湖旅游计划安排&quot;&gt;&lt;a href=&quot;#国庆千岛湖旅游计划安排&quot; class=&quot;headerlink&quot;</summary>
-        
-      
     
     
     
@@ -42,11 +34,38 @@
   </entry>
   
   <entry>
+    <title>webpack 单页配置指南</title>
+    <link href="http://kuaiyu95.github.io/posts/dd44.html"/>
+    <id>http://kuaiyu95.github.io/posts/dd44.html</id>
+    <published>2020-04-02T02:25:24.000Z</published>
+    <updated>2020-11-02T02:32:31.403Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、基本概念&quot;&gt;&lt;a href=&quot;#一、基本概念&quot; class=&quot;headerlink&quot; title=&quot;一、基本概念&quot;&gt;&lt;/a&gt;一、基本概念&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;entry&lt;/li&gt;
+&lt;li&gt;output - [filename, path] -</summary>
+        
+      
+    
+    
+    
+    <category term="webpack" scheme="http://kuaiyu95.github.io/categories/webpack/"/>
+    
+    
+    <category term="webpack" scheme="http://kuaiyu95.github.io/tags/webpack/"/>
+    
+  </entry>
+  
+  <entry>
     <title>网络安全</title>
     <link href="http://kuaiyu95.github.io/posts/45331.html"/>
     <id>http://kuaiyu95.github.io/posts/45331.html</id>
-    <published>2018-09-07T01:25:00.000Z</published>
-    <updated>2020-10-30T07:24:26.913Z</updated>
+    <published>2020-03-07T01:25:00.000Z</published>
+    <updated>2020-11-02T02:32:20.038Z</updated>
     
     
       
@@ -65,9 +84,31 @@
     
     <category term="网络安全" scheme="http://kuaiyu95.github.io/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
     
-    <category term="XSS 攻击" scheme="http://kuaiyu95.github.io/tags/XSS-%E6%94%BB%E5%87%BB/"/>
+  </entry>
+  
+  <entry>
+    <title>了解一下 HTTP 发展历程吧</title>
+    <link href="http://kuaiyu95.github.io/posts/a8e7.html"/>
+    <id>http://kuaiyu95.github.io/posts/a8e7.html</id>
+    <published>2019-11-02T02:11:26.000Z</published>
+    <updated>2020-11-02T02:32:39.412Z</updated>
     
-    <category term="CORS 攻击" scheme="http://kuaiyu95.github.io/tags/CORS-%E6%94%BB%E5%87%BB/"/>
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、HTTP-起源&quot;&gt;&lt;a href=&quot;#一、HTTP-起源&quot; class=&quot;headerlink&quot; title=&quot;一、HTTP 起源&quot;&gt;&lt;/a&gt;一、HTTP 起源&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;HTTP 协议始于三十年前蒂姆·伯纳斯 -</summary>
+        
+      
+    
+    
+    
+    <category term="网络安全" scheme="http://kuaiyu95.github.io/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="HTTP" scheme="http://kuaiyu95.github.io/tags/HTTP/"/>
     
   </entry>
   
